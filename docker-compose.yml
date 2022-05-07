@@ -31,7 +31,7 @@ services:
     - db
 
   todolist:
-    image: todolist_project/todolist:latest
+    image: ghcr.io/imanyazizi/todolist:latest
     build:
       context: .
     environment:
